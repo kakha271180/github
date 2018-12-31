@@ -7,25 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using SPSQLite;
-
-
 
 namespace SwimmingPool
 {
-    public partial class Form1 : Form
+    public partial class abonentis_damateba : Form
     {
-        public Form1()
+        public abonentis_damateba()
         {
             InitializeComponent();
-
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            abonentis_damateba AB = new abonentis_damateba();
-            AB.ShowDialog();
         }
     }
 }
